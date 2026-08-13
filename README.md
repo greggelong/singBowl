@@ -1,7 +1,3 @@
-Here's the fully bilingual README for the online version, with all hardware, spacing, and setup instructions in both English and Chinese.
-
----
-
 # 🏺 Singing Bowl of Jingdezhen – Online Edition
 
 # 景德镇唱歌碗 – 在线版
