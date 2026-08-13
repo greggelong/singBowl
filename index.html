@@ -12,11 +12,13 @@
             box-sizing: border-box;
             user-select: none;
         }
+
         body {
             background: #0b0a0a;
             overflow: hidden;
             font-family: 'Courier New', monospace;
         }
+
         canvas {
             display: block;
             position: fixed;
@@ -25,6 +27,7 @@
             width: 100%;
             height: 100%;
         }
+
         #info {
             position: absolute;
             bottom: 18px;
@@ -42,12 +45,14 @@
             font-family: monospace;
             line-height: 1.6;
         }
+
         #info .chinese {
             font-size: 12px;
             opacity: 0.8;
             display: block;
             font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
         }
+
         #status {
             position: absolute;
             bottom: 18px;
@@ -64,12 +69,14 @@
             text-align: right;
             line-height: 1.5;
         }
+
         #status .chinese {
             font-size: 10px;
             opacity: 0.7;
             display: block;
             font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
         }
+
         #debug {
             position: absolute;
             top: 18px;
@@ -83,6 +90,7 @@
             pointer-events: none;
             z-index: 10;
         }
+
         #clickHint {
             position: absolute;
             bottom: 80px;
@@ -103,9 +111,11 @@
             text-align: center;
             line-height: 1.8;
         }
+
         #clickHint.show {
             opacity: 1;
         }
+
         #clickHint .chinese {
             font-size: 12px;
             opacity: 0.7;
@@ -261,7 +271,9 @@
             if (onRim) {
                 targetFreq = angleToFreq(angle);
                 const dist = getDistanceToRim(fingerX, fingerY);
-                const vol = Math.max(0.02, Math.min(0.30, 0.35 - dist * 3.5));
+                //const vol = Math.max(0.02, Math.min(0.30, 0.35 - dist * 3.5));
+                const vol = Math.max(0.02, Math.min(0.70, 0.75 - dist * 3.5));
+
                 targetVolume = vol;
                 const cutoff = 600 + velocity * 1800;
                 filterNode.frequency.rampTo(Math.min(4000, cutoff), 0.05);
@@ -431,8 +443,10 @@
                         }
                     }
                     const drawY = y + wave;
-                    if (first) { ctx.moveTo(x, drawY);
-                        first = false; } else ctx.lineTo(x, drawY);
+                    if (first) {
+                        ctx.moveTo(x, drawY);
+                        first = false;
+                    } else ctx.lineTo(x, drawY);
                 }
                 ctx.stroke();
             }
@@ -586,8 +600,10 @@
                     if (!p) continue;
                     const px = p.x * W;
                     const py = p.y * H;
-                    if (!started) { ctx.moveTo(px, py);
-                        started = true; } else ctx.lineTo(px, py);
+                    if (!started) {
+                        ctx.moveTo(px, py);
+                        started = true;
+                    } else ctx.lineTo(px, py);
                 }
                 ctx.strokeStyle = 'rgba(200, 140, 80, 0.45)'; // more opacity
                 ctx.lineWidth = 3.5; // thicker
