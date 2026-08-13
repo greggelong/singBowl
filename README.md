@@ -1,3 +1,7 @@
+Here's the fully bilingual README for the online version, with all hardware, spacing, and setup instructions in both English and Chinese.
+
+---
+
 # 🏺 Singing Bowl of Jingdezhen – Online Edition
 
 # 景德镇唱歌碗 – 在线版
@@ -20,29 +24,29 @@ This is the **online version** of the Singing Bowl installation. It runs entirel
 
 ## 🖥️ Hardware Requirements · 硬件要求
 
-| Component · 部件     | Recommendation · 建议                                                                                                                       |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Display · 显示器** | Large TV or monitor, **55–85 inches**, mounted on the wall in **landscape (16:9)** orientation.                                             |
-| **Computer · 电脑**  | Any modern laptop or desktop (Windows / macOS / Linux) with a web browser (Chrome, Edge, or Firefox recommended). 8 GB RAM recommended.     |
-| **Webcam · 摄像头**  | USB webcam with **720p minimum (1080p preferred)**. A 70–80° field of view is ideal. Place it on top of the TV, pointing slightly downward. |
-| **Audio · 音频**     | External speakers or a soundbar. Place speakers left and right of the TV, or use a soundbar mounted below the screen.                       |
-| **Internet · 网络**  | Required for the online version. The page loads MediaPipe and Tone.js from CDN.                                                             |
-| **Cables · 线缆**    | HDMI cable (computer to TV), power cables for all devices.                                                                                  |
+| Component · 部件     | Recommendation · 建议                                                                                                                                                                                                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Display · 显示器** | Large TV or monitor, **55–85 inches**, mounted on the wall in **landscape (16:9)** orientation. Larger screens are more immersive. <br> **大尺寸电视或显示器，55–85 英寸**，以**横屏（16:9）**方式壁挂安装。屏幕越大越具沉浸感。                                                            |
+| **Computer · 电脑**  | Any modern laptop or desktop (Windows / macOS / Linux) with a web browser (Chrome, Edge, or Firefox recommended). 8 GB RAM recommended. <br> **任意现代笔记本电脑或台式机**（Windows / macOS / Linux），配备网页浏览器（推荐 Chrome、Edge 或 Firefox）。建议 8 GB 内存。                    |
+| **Webcam · 摄像头**  | USB webcam with **720p minimum (1080p preferred)**. A 70–80° field of view is ideal. Place it on top of the TV, pointing slightly downward. <br> **USB 摄像头，至少 720p（1080p 更佳）**。70–80° 视野较为理想。安装在电视顶部，略微向下倾斜。                                               |
+| **Audio · 音频**     | External speakers or a soundbar. Place speakers left and right of the TV, or use a soundbar mounted below the screen. Sound should feel like it's coming from the bowl. <br> **外接扬声器或条形音箱**。扬声器放置在电视左右两侧，或使用安装在电视下方的条形音箱。声音应感觉像是从碗中发出。 |
+| **Internet · 网络**  | Required for the online version. The page loads MediaPipe and Tone.js from CDN. <br> **在线版本需要网络**。页面从 CDN 加载 MediaPipe 和 Tone.js。                                                                                                                                           |
+| **Cables · 线缆**    | HDMI cable (computer to TV), power cables for all devices. <br> **HDMI 线**（电脑到电视），所有设备的电源线。                                                                                                                                                                               |
 
 ---
 
 ## 📐 Space & Positioning · 空间与定位
 
-| Dimension · 尺寸                 | Recommended · 建议                                                                                                                                        |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Screen height**                | Center of the screen at **eye level** for a standing adult (about 140–160 cm from the floor).                                                             |
-| **Distance from screen to user** | **1.5 to 2.5 meters (5–8 feet)**. This allows the user to view the entire oversized bowl while keeping their hand close enough for accurate tracking.     |
-| **User's arm reach**             | The user should extend their arm comfortably toward the screen. Their hand should be about **50–80 cm from the camera lens**.                             |
-| **Camera height**                | Mount the camera at the **top center of the TV**, pointing downward at **15–20°**.                                                                        |
-| **Camera field of view**         | 70–80° is ideal. At 2 meters, this captures roughly 2.5 meters wide – enough to cover the user's hand movements across the bowl's diameter.               |
-| **Lighting · 光线**              | Even, soft lighting on the user's hand and face. Avoid strong backlight (windows behind the user) or harsh overhead lights that cast shadows on the hand. |
-| **Background · 背景**            | A plain wall or curtain behind the user helps the tracking system focus on the hand. Avoid cluttered or reflective backgrounds.                           |
-| **Floor marker · 地面标记**      | Place a subtle marker (tape or small rug) on the floor at the ideal distance (e.g., 1.8 meters) to guide the user.                                        |
+| Dimension · 尺寸                                    | Recommended · 建议                                                                                                                                                                                                                                    |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Screen height · 屏幕高度**                        | Center of the screen at **eye level** for a standing adult (about 140–160 cm from the floor). <br> 屏幕中心与**站立成年人视线平齐**（距地面约 140–160 厘米）。                                                                                        |
+| **Distance from screen to user · 屏幕到用户的距离** | **1.5 to 2.5 meters (5–8 feet)**. This allows the user to view the entire oversized bowl while keeping their hand close enough for accurate tracking. <br> **1.5 到 2.5 米**。这样用户既能看清整个大碗，又能使手部距离摄像头足够近以保证追踪精度。    |
+| **User's arm reach · 用户手臂伸展**                 | The user should extend their arm comfortably toward the screen. Their hand should be about **50–80 cm from the camera lens**. <br> 用户应舒适地将手臂伸向屏幕。手部距摄像头镜头约 **50–80 厘米**。                                                    |
+| **Camera height · 摄像头高度**                      | Mount the camera at the **top center of the TV**, pointing downward at **15–20°**. <br> 将摄像头安装在电视**顶部中央**，向下倾斜 **15–20°**。                                                                                                         |
+| **Camera field of view · 摄像头视野**               | 70–80° is ideal. At 2 meters, this captures roughly 2.5 meters wide – enough to cover the user's hand movements across the bowl's diameter. <br> 70–80° 较为理想。在 2 米距离时，可拍摄约 2.5 米宽的范围——足以覆盖用户手部在碗直径范围内的移动。      |
+| **Lighting · 光线**                                 | Even, soft lighting on the user's hand and face. Avoid strong backlight (windows behind the user) or harsh overhead lights that cast shadows on the hand. <br> 手部和面部需均匀柔和的照明。避免强烈的逆光（用户身后的窗户）或顶部强光在手部投射阴影。 |
+| **Background · 背景**                               | A plain wall or curtain behind the user helps the tracking system focus on the hand. Avoid cluttered or reflective backgrounds. <br> 用户身后的纯色墙壁或幕布有助于追踪系统聚焦手部。避免杂乱或反光的背景。                                           |
+| **Floor marker · 地面标记**                         | Place a subtle marker (tape or small rug) on the floor at the ideal distance (e.g., 1.8 meters) to guide the user. <br> 在地面理想距离处（例如 1.8 米）放置一个醒目的标记（胶带或小地毯）以引导用户站位。                                             |
 
 ---
 
@@ -119,12 +123,14 @@ This is the **online version** of the Singing Bowl installation. It runs entirel
 
 For the best tracking, follow these camera adjustments:
 
-| Adjustment · 调整                   | Recommendation · 建议                                                                                                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tilt angle · 倾斜角度**           | 15–20° downward from horizontal. This captures the hand while keeping the background minimal.                                                                             |
-| **Distance from hand · 到手部距离** | The user's hand should be **50–80 cm** from the camera lens when extended. At this distance, the hand fills about 20–30% of the camera frame.                             |
-| **Zoom / FOV**                      | If your webcam has zoom, set it so the hand is clearly visible. A 70–80° FOV is ideal. If the hand appears too small, move the user closer. If too large, move them back. |
-| **Focus**                           | Set to autofocus if available. If the hand is blurry, manual focus may be needed.                                                                                         |
+为了获得最佳追踪效果，请按以下方式调整摄像头：
+
+| Adjustment · 调整                   | Recommendation · 建议                                                                                                                                                                                                                                                                                  |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Tilt angle · 倾斜角度**           | 15–20° downward from horizontal. This captures the hand while keeping the background minimal. <br> 从水平方向向下倾斜 15–20°。这样既能捕捉手部，又能尽量减少背景干扰。                                                                                                                                 |
+| **Distance from hand · 到手部距离** | The user's hand should be **50–80 cm** from the camera lens when extended. At this distance, the hand fills about 20–30% of the camera frame. <br> 用户手部伸展时距摄像头镜头 **50–80 厘米**。在此距离下，手部约占画面 20–30%。                                                                        |
+| **Zoom / FOV · 变焦/视野**          | If your webcam has zoom, set it so the hand is clearly visible. A 70–80° FOV is ideal. If the hand appears too small, move the user closer. If too large, move them back. <br> 如果摄像头有变焦功能，调整至手部清晰可见。70–80° 视野较为理想。如果手部显得太小，让用户靠近一些；如果太大，则后退一些。 |
+| **Focus · 对焦**                    | Set to autofocus if available. If the hand is blurry, manual focus may be needed. <br> 如有自动对焦功能，请开启。如果手部模糊，可能需要手动对焦。                                                                                                                                                      |
 
 ---
 
